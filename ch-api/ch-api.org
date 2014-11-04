@@ -14,7 +14,7 @@
 **** TODO [[http://en.wikipedia.org/wiki/Method_stub][Stub]]
 DEADLINE: <2014-11-07 Fri>
 Делаем stub для первичной настройки общения между компонентами системы.
-Файлы ChAPI лежат в master/ChAPI/
+Файлы ChAPI лежат в master/ch-api/
 На вход приходят параметры input, выводятся output.
 |--------+--------|
 | input  | output |
