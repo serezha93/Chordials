@@ -1,3 +1,20 @@
+* Server setup
+** DONE Web server and javax.servlet container: Jetty
+CLOSED: [2014-11-09 Sun 00:57]
+- State "DONE"       from ""           [2014-11-09 Sun 00:57]
+- http://jenya-p.ru/home/1-blog/2-jettyvstomcat.html
+- http://stackoverflow.com/questions/8329254/tomcat-7-vs-jetty
+*** CANCELLED [[http://habrahabr.ru/post/150965/][LilacServer]]
+CLOSED: [2014-11-09 Sun 00:44]
+- State "CANCELLED"  from ""           [2014-11-09 Sun 00:44] \\
+  Закрытый код, слишком большой
+*** DONE [[http://www.eclipse.org/jetty/][Eclipse Foundation Jetty]]
+CLOSED: [2014-11-09 Sun 01:39]
+- State "DONE"       from ""           [2014-11-09 Sun 01:39]
+*** CANCELLED [[http://tomcat.apache.org/][Apache Tomcat]]
+CLOSED: [2014-11-09 Sun 01:39]
+- State "CANCELLED"  from ""           [2014-11-09 Sun 01:39]
+** TODO Configure the server
 * ch-api (rest api)
 ** Methods
 *** getChords(string media_info[])
