@@ -1,5 +1,0 @@
-2014-11-09 21:16:34.790:INFO:oejs.Server:main: jetty-9.2.3.v20140905
-2014-11-09 21:16:34.813:INFO:oejdp.ScanningAppProvider:main: Deployment monitor [file:/usr/local/Cellar/jetty/9.2.3/libexec/webapps/] at interval 1
-2014-11-09 21:16:34.843:INFO:oejs.ServerConnector:main: Started ServerConnector@4f79a28b{HTTP/1.1}{0.0.0.0:8080}
-2014-11-09 21:16:34.844:INFO:oejs.Server:main: Started @912ms
-2014-11-09 21:16:37.765:INFO:oejs.ServerConnector:Thread-1: Stopped ServerConnector@4f79a28b{HTTP/1.1}{0.0.0.0:8080}
