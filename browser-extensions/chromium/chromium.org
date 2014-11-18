@@ -1,8 +1,56 @@
-* Chromium
-** Research
-*** Как делать расширения для хрома?
-*** Какие данные можно передавать для детального анализа mp3-файла?
-** TODO Создать кнопку рядом с каждой аудиозаписью ВК, передающую следующие параметры в ch-api:
-1. Название композиции
-2. Исполнитель
-3. Хэш
+* STARTED Research
+- State "STARTED"    from "WAITING"    [2014-11-16 Sun 17:48]
+CLOCK: [2014-11-16 Sun 17:48]
+- State "WAITING"    from "WAITING"    [2014-11-14 Fri 12:20]
+  Moved to evening
+
+- [[http://habrahabr.ru/post/171011/][Работаем с API вконтакте из расширения для Google Chrome]]
+- [[https://developer.chrome.com/extensions/getstarted][Документация]]
+- [[http://habrahabr.ru/post/170765/][Пишем расширение для Google Chrome (и публикуем его) из песочницы]]
+- [[http://vk.com/dev][Как регистрировать приложения для VK]]
+
+- [[https://developer.chrome.com/extensions/manifest][Manifest documentation]]
+
+- [[http://stackoverflow.com/questions/17979903/chrome-extension-insert-fixed-div-as-ui][That's why we use content_scripts]]
+
+- http://habrahabr.ru/post/183546/
+- [[http://vk.com/dev/audio.edit][audio.edit]]
+
+|-----------+----------+-------------------------------------------------------------------------------------------------------------|
+| Parameter | Required | Description                                                                                                 |
+|-----------+----------+-------------------------------------------------------------------------------------------------------------|
+| owner_id  |        1 | идентификатор владельца аудиозаписи (пользователь или сообщество). ID сообщества должен быть отрицательным. |
+| audio_id  |        1 | идентификатор аудиозаписи                                                                                   |
+| artist    |        0 | новое название исполнителя                                                                                  |
+| title     |        0 | новое название композиции                                                                                   |
+| text      |        0 | новый текст аудиозаписи                                                                                     |
+| genre_id  |        0 | идентификатор жанра из списка аудиожанров                                                                   |
+| no_search |        0 | 1 -- аудиозапись не будет доступна в поиске. По умолчанию -- 0                                              |
+|-----------+----------+-------------------------------------------------------------------------------------------------------------|
+- Жанры
+|----+--------------------|
+|  1 | Rock               |
+|  2 | Pop                |
+|  3 | Rap & Hip-Hop      |
+|  4 | Easy Listening     |
+|  5 | Dance & House      |
+|  6 | Instrumental       |
+|  7 | Metal              |
+|  8 | Dubstep            |
+|  9 | Jazz & Blues       |
+| 10 | Drum & Bass        |
+| 11 | Trance             |
+| 12 | Chanson            |
+| 13 | Ethnic             |
+| 14 | Acoustic & Vocal   |
+| 15 | Reggae             |
+| 16 | Classical          |
+| 17 | Indie Pop          |
+| 18 | Other              |
+| 19 | Speech             |
+| 21 | Alternative        |
+| 22 | Electropop & Disco |
+|----+--------------------|
+
+* TODO Создать кнопку рядом с каждой аудиозаписью ВК, передающую параметры VK API в CH API
+<div class="play_btn_wrap"><div class="play_new" id="play16908835_322962989"></div></div>

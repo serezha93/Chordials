@@ -1,5 +1,7 @@
 Chordials
 =========
-
-* ch-api: делаем stub.
-* browser-extensions/chromium: делаем тестовые кнопки слева от каждой аудиозаписи ВК. При нажатии посылаем ajax-запросы к chapi: http://chapi/?hash=0 и http://chapi/?hash=1. Результат выводим алертом.
+* Current task: front-end research
+    - Работаем с API вконтакте из расширения для Google Chrome: http://habrahabr.ru/post/171011/
+    - Документация: https://developer.chrome.com/extensions/getstarted
+    - Пишем расширение для Google Chrome (и публикуем его) из песочницы: http://habrahabr.ru/post/170765/
+    - Как регистрировать приложения для VK: http://vk.com/dev
